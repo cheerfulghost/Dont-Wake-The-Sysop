@@ -1,0 +1,133 @@
+SHINING STAR SOFTWARE & Nannette Thacker 
+------------------= * =---------------------
+
+MAGIC NAME: FAIR
+LORD COUNTY FAIR -- An In Game Module (IGM)
+for LORD. Spend a Day at the Fair & visit 
+the Balloon Pop & Medicine Man. Can you be 
+a Pie Eating Champ? Plant a wet one on your 
+favorite sweetie at the Kissing Booth. Join 
+the Spear Toss & Javelin Throw Tournaments. 
+Check out the Haunted & Enchanted Forests &
+Fairy Catch. Slosh enemies in the Dunk Tank!
+------------------= * =---------------------
+
+MAGIC NAME: DREAD
+Dr. Dread Multi-player BBS Door RPGame. 
+Player challenges. On-line chat. Travel 
+together in Zones. Battle Droids. Use your 
+wits to make your way past Sizzlers, Force 
+Fields & many other Electro-Droids. Watch 
+out for Traps! Animated color ansi! Secret 
+door Key Quests. Supports MANY drop files.
+Color Messages! Long or 10-Minute options.
+------------------= * =---------------------
+
+MAGIC NAME: SPIKE
+SPIKED! -- Multi-node BBS Door Log-Off Game! 
+How long can you survive before you are 
+spiked by the walls? They keep closing in
+on you! When you're spiked it logs you off 
+automatically. Make logging off a game! 
+Players love it! Allows multiple players at 
+the same time. High Survival Scores & High 
+Accumulative Scores for all players.
+------------------= * =---------------------
+
+MAGIC NAME: TREKKIE
+Trekkie Tags -- Part of the TAGLINE SERIES
+MULTI-NODE BBS Door Phrase Game! Over 1500   
+of your favorite Trekkie Taglines! Includes
+taglines from the original Star Trek, the
+Next Generation, Voyager, and Deep Space 9.      
+------------------= * =---------------------
+
+MAGIC NAME: PUNCH
+Punchline! -- Part of the TAGLINE SERIES
+MULTI-NODE BBS Door Phrase Game! Meet Funny 
+Freddy, a computer geek who steals TAGLINES 
+and uses them in his nightly comedy act at 
+the Punch Line Comedy House. Can you help 
+Freddy tell his one-liners without forgetting
+the punch line? Keeps scores for all players.
+------------------= * =---------------------
+
+MAGIC NAME: JACOB
+Jacob's Ladder -- Part of the TAGLINE SERIES
+MULTI-NODE BBS Door Phrase Game! Can you    
+help Jacob climb the ladder of faith by     
+filling in the blanks for Inspirational    
+& Bible Scripture phrases? A game your 
+Christian players will appreciate.
+------------------= * =---------------------
+
+MAGIC NAME: WAKE
+Don't Wake The Sysop - A FUN way to Log-Off
+MULTI-NODE BBS Door Log-off Game! So you 
+want to Wake the Sysop! How daring are you?
+Are you gonna page him, call him on the 
+phone, knock on his door, or YELL outside
+his window? Keeps accumulative scores and
+high daily scores. Sysop mode allows resets.
+------------------= * =---------------------
+
+MAGIC NAME: FURY
+Door Fury! -- Keep Track of BBS Door Stats.
+3 ways to Sort: Door Name, Uses, Last User.
+Also shows Date Last Used. Shows ALL your 
+doors, not just top 10. Keep track of 
+deadbeat doors to get rid of. MULTI-NODE. 
+------------------= * =---------------------
+
+Door Rage! - List Registered, Unregistered,
+Xchanged, Offline doors! $ amount, customize.
+Give credit to those who helped you register. 
+Show your users how much you've invested in
+your BBS. List those offline doors you tried
+that crashed, wouldn't load, or never got
+used to remind yourself you've tried it.
+------------------= * =---------------------
+
+All Doors:
+Easy setup and complete instructions.
+Supports nearly ALL DROPFILES and SYSTEMS.
+
+Latest versions always available at: 
+Wishing Star BBS 1-316-522-7829 or 1-316-522-7641
+FREQ 1:291/60    28.8 modem
+
+------------------= * =---------------------
+
+* ----------------------------------------------------------
+
+THE FOLLOWING ZIP FILES ARE USED FOR SHINING STAR SOFTWARE'S
+INVENTORY PROGRAM. IT IS A DATABASE PROGRAM FOR LOCAL USE:
+
+* ----------------------------------------------------------
+
+SSINV2H.ZIP 
+
+Inventory 2.3 for DOS Requires SSLIBR.ZIP 
+(real mode) or SSLIBX.ZIP (for 32-bit 
+extended) to run. Shining Star Software's 
+Inventory program includes customizeable 
+reports to screen, file, browse, or printer. 
+Includes a Diary, Calendar, Capture, Text 
+File edit & create, & Calculator. Written in 
+an event-driven, user-friendly interface w/
+multi-window access, drop down sticky menus, 
+mouse support, hot keys, buttons, radios, 
+popups, search & replace, on-line help, & 
+printable manual. Supports VGA, color.
+------------------= * =---------------------
+
+SSLIBR.ZIP 
+SSLIBX.ZIP 
+
+This library is required to run any of 
+Shining Star Software's DOS programs. 
+Use the SSLIBR.ZIP for real mode  
+or SSLIBX.ZIP for 32-bit extended 
+operation. You do not need both libraries.
+------------------= * =---------------------
+  

@@ -1,0 +1,42 @@
+Shining Star Software welcomes the following OFFICIAL DISTRIBUTION
+SITES for Nannette Thacker's doors. These sites have all the latest
+releases set up under the magic names listed below:
+
+BBS                 LOCATION             BBS #         FIDONET FREQS      
+Just Out Of Albany  Selkirk, New York    518-767-2832    1:267/158
+The Sanatorium!     Sanataria Spgs, NY   607-648-7470
+The Federation BBS  Winter Spgs, Florida 407-327-8515    1:363/295
+Dark Side of Town   Largo, Florida       813-585-9214    1:3603/361
+Storm's Fury BBS    Port Richey, Florida 813-843-8905    coming soon
+Fireburners BBS     Toledo, Oregon       503-336-4538    1:3418/2  
+Farpoint BBS        Paris, Texas         903-785-8820    1:19/61
+The Fortress        Fort Worth, Texas    817-763-5583    1:130/612
+Midnight Machine    Wichita, Kansas                      1:291/23
+*Wishing Star BBS   Wichita, Kansas      316-522-7829    1:291/60  
+
+Midnight Oil BBS    Alberta, Canada      403-329-3381    1:358/26
+**The Club BBS      Gold Coast, Aust.   +61-07-5577-4547 3:640/952
+The Wizard BBS      Sydney, Australia    +61 2 9975 5692 3:714/926
+Eternal Entropy     Sydney, Australia    +61-2-878-4666  3:711/950
+The Catalyst BBS    South Africa         +27-41-515913   5:7104/2
+Zilent BBS          Oslo, Norway   #1: +47 22495392 #2: +47 22495370
+
+*Author's Support BBS and Registration Site -- No verify, full access.   (My board does not handle 26400 connects well, call Midnight Machine.)
+**Australian On-Line Registration Site.
+
+SSS DOORS INTERNET FTP:
+ftp ftp.southwind.net   /users/n/nannette
+ftp europa.com          /outgoing/DOORS/STAR
+http://www.southwind.net/~nannette/
+
+All doors have been sent out on the following file distribution networks:
+DDSDOORS
+PROBOARD
+SSSDOORS
+LORD County Fair has been sent out on the LORD FDN.
+
+Shining Star Software also offers the following support echos:
+SHINE*STAR -- FIDONET
+SSSDOORS   -- Shining Star Software File Distribution Network (SSSFDN)
+
+Contact Nannette at: nannette@southwind.net  BBS: 316-522-7829

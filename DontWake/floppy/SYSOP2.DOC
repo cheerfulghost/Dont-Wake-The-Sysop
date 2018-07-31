@@ -1,0 +1,176 @@
+THE FOLLOWING INFORMATION APPLIES TO ALL SHINING STAR SOFTWARE PROGRAMS:
+
+DISTRIBUTION
+
+You may make this file available for downloading from your BBS or you may
+upload it to any BBS of your choice, provided that you do not make any
+changes to the contents of the archive (ZIP file). 
+
+----------------------------------------------------------------------------
+TO REGISTER, PLEASE FIND ENCLOSED IN THIS ARCHIVE THE FILE REGISTER.DOC.
+READ AND FILL IT OUT, SEND IT TO THE ADDRESS IN THE REGISTER.DOC WITH
+PROPER REGISTRATION MONEY AND YOUR REGISTRATION WILL BE PROMPTLY SENT TO
+YOU ACCORDING TO THE METHOD CHECKED ON THE REGISTRATION FORM.
+
+YOU MAY ALSO REGISTER ON-LINE WITH MASTERCARD/VISA/other CREDIT CARDS.
+YOU MAY REGISTER ON-LINE WITH ON-LINE CHECK WRITING AS WELL.
+SEE REGISTER.DOC.
+----------------------------------------------------------------------------
+
+Features
+ÄÄÄÄÄÄÄÄÄÄ
+
+     * Support for all known and unknown comm ports
+     * Fossil driver support
+     * Complete monitoring of system time, time left, carrier and DTE
+     * Support for color screens
+
+Tools
+ÄÄÄÄÄ
+
+	Language and Compiler:  Borland's Turbo C++
+	Libraries:              Brian Pirie's OpenDoors
+				Sequiter Software's Codebase
+	Database &
+	Screen Design:          Microsoft Foxpro 2.5
+	Author's BBS System:    Proboard 2.01
+
+Shareware
+ÄÄÄÄÄÄÄÄÄ
+This is not freeware, this is SHAREWARE. Please register
+so the author can afford to bring you more doors.
+
+
+Support
+ÄÄÄÄÄÄÄ
+
+   Snail-Mail:  Shining Star Software
+		P.O. Box 16823
+		Wichita, KS 67216
+
+   BBS:   Wishing Star BBS  
+	  FIDONET: 1:291/60   INTERNET: nannette@southwind.net
+	  316-522-7829 or 316-522-7641
+	  (no call-back verification, full access 1st call)
+	  Leave comment for Nannette Thacker, the sysop & author.
+      (Try to Page Nannette in case she is available when you call.)
+
+   I also am available in the FIDONET DOORGAME ECHO for support.
+
+   See dist.txt for a list of distribution sites and file distribution
+   networks.
+
+   PLEASE, PLEASE, PLEASE read the DOCS. 
+   
+
+SETUP
+ÍÍÍÍÍ
+
+ABOUT THE .CFG FILE
+----------------------------------
+In 99% of all cases, you will not need to touch the .cfg
+file. All configuration that you need is passed on the 
+command line.
+
+The .CFG file is provided for those BBS's which have
+unusual characteristics or require specific customization.
+You should not need to worry about altering the .CFG file.
+
+If you do require use of the .CFG file, it must reside
+in the same directory as the door's .EXE.
+
+Supported BBS Drop Files:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+DORINFOx.DEF
+EXITINFO.BBS
+CHAIN.TXT
+DOOR.SYS
+CALLINFO.BBS
+SFDOORS.DAT
+  and possibly many others. Just try it. Customizeable drop file is also
+  available within the .cfg file.
+
+If your drop file is not on the list, and works, let me know and I'll add
+it to the list.
+
+On-Line Sysop Commands
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+While a caller is on-line, the local sysop has several options.  They are
+as follows:
+
+Alt: [C]hat [H]angup [L]ockout [J]Dos
+[K]eyboard-Off [D]rop to BBS
+
+[UP]/[DOWN] - Use the arrow keys to increase or decrease the
+	      amount of time which the user has left in the
+	      door.
+
+[Alt]-[C] -   Allows the sysop to break into chat with the user
+	      at any time. [Alt]-[C] again, or [ESC] will end
+	      chat mode. This function invokes a split screen
+	      sysop chat.
+
+[Alt]-[J] -   Allows the sysop to shell to DOS, if enough memory
+	      is available. Simply type EXIT to return to the
+	      door again. BE SURE TO HIT "R" for REDRAW when
+	      returning to the Door.
+
+[Alt]-[H] -   Hang up on the user. When the sysop does this,
+	      the program will close files with a safe exit
+	      back to your BBS system in "wait for call" mode.
+
+[Alt]-[L] -   This key locks the user out of the BBS. It first
+	      hangs up on the user, and then sets their security
+	      level to 0, to prevent them from ever logging on
+	      again. This feature may require use of the
+	      EXITINFO.BBS file, depending on what system the
+	      door is running under.
+
+[Alt]-[K] -   The "User Keyboard-Off" key allows the sysop to
+	      temporarily prevent the user from typing anything
+	      on their keyboard. This has no effect on the local
+	      keyboard, but causes the program to ignore any
+	      keystrokes from remote.
+
+[Alt]-[N] -   The "Sysop Next" key, this function reserves the
+	      system for use by the sysop after the user logs
+	      off, if the door is running under an Apex or RA
+	      1.00 or later system.
+
+[Alt]-[D] -   "Drop to BBS" key. This function allows the sysop
+	      to exit the door and return the user to the BBS,
+	      without hanging up.
+
+Licensing Agreement
+===================
+
+You are hereby granted a license to use, share, copy, and
+distribute the accompanying program and its documentation, 
+provided that this notice, and the copyright information is not 
+removed and/or altered in any way or form. No fee or consideration 
+is to be charged for the distribution. The accompanying program is 
+provided on an AS-IS basis without warranty of any kind expressed or 
+implied. The entire risk as to quality and performance of 
+the accompanying program rests solely with the user. In no event will the 
+author be liable to you for any damages, consequential or inconsequential.
+
+By operating the accompanying program you acknowledge you have read and 
+understand this agreement and agree to be bound by its
+terms and conditions. 
+
+The registered version of this program may only be run on the BBS it is
+registered to. The sysop may run as many copies on that BBS as s/he would
+like. Keys are not to be given out to others.
+
+LEGALITIES
+
+THIS SOFTWARE AND ACCOMPANYING MATERIALS ARE DISTRIBUTED "AS IS" WITHOUT
+WARRANTY, EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO ANY
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+IN NO EVENT SHALL ANYONE INVOLVED WITH THE CREATION AND PRODUCTION OF THIS
+PRODUCT BE LIABLE FOR INDIRECT, SPECIAL, OR CONSEQUENTIAL DAMAGES, ARISING
+OUT OF ANY USE THEREOF OR BREACH OF ANY WARRANTY. ONCE REGISTERED, ANY
+DISTRIBUTION OF THE REGISTRATION KEY WILL INVALIDATE YOUR KEY IN ALL FUTURE
+VERSIONS OF THIS PROGRAM AND NO PRODUCT SUPPORT WILL BE GIVEN. DISTRIBUTING
+A REGISTERED KEY CODE WILL ALSO BRING ABOUT CRIMINAL CHARGES.

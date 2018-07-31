@@ -1,0 +1,10 @@
+WAKE.EXE local
+WAKE.EXE local
+WAKE.EXE local
+WAKE.EXE local
+WAKE.EXE local
+WAKE.EXE local
+WAKE.EXE local
+WAKE.EXE local
+WAKE.EXE local
+WAKE.EXE local

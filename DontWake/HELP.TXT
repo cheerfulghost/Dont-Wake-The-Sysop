@@ -1,0 +1,58 @@
+DON'T WAKE THE SYSOP
+
+A FUN way to log-off. Put it on your log-off menu!
+
+We dare you to make as much noise as possible without waking the sysop.
+The more noise you make, the more points you score.
+But be careful, if you wake the sysop, he will be very angry and
+disconnect you from the system!
+FOR REAL! If you wake him, you WILL be disconnected!
+
+DON'T WAKE THE SYSOP is a log-off game. The louder your attempts to
+wake the sysop, the greater the odds you will be booted off the
+system. If you survive all 10 turns without waking the sysop,
+you will not be disconnected!
+
+You can view scores by High Accumulative Scores of all games
+played. Or you can view scores by High Game Score. 
+
+------------------------------------------------------------------
+
+Don't Wake the Sysop is a product of Nannette Thacker and
+Shining Star Software.
+Don't Wake the Sysop can be freqed as WAKE at 1:291/60 or 1:291/23.
+Don't Wake the Sysop is also sent out on the DDSDOORS echo and may be
+available at a BBS near you!
+
+The game idea for Don't Wake the Sysop was originally created by
+Joanna Watkins. It was originally programmed by William Newell.
+William lost all of his source code and didn't want to reprogram it,
+so I took the game over and reprogrammed it in C.
+
+------------------------------------------------------------------
+
+Want more log-off games for your log-off menu? Check out Spiked!
+Available for FREQ as SPIKE at 1:291/60 or 1:291/23.
+
+------------------------------------------------------------------
+
+SSS DOORS INTERNET FTP:
+ftp ftp.southwind.net   /users/n/nannette
+ftp europa.com          /outgoing/DOORS/STAR
+http://www.southwind.net/~nannette/
+
+All doors have been sent out on the following file distribution networks:
+DDSDOORS
+PROBOARD
+SSSDOORS
+
+Shining Star Software also offers the following support echos:
+SHINE*STAR -- FIDONET
+SSSDOORS   -- Shining Star Software File Distribution Network (SSSFDN)
+
+Contact Nannette at: nannette@southwind.net  BBS: 316-522-7829
+
+
+
+
+

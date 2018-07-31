@@ -1,0 +1,248 @@
+DON'T WAKE THE SYSOP * SHINING STAR SOFTWARE * NANNETTE THACKER
+Copyright 1995 Nannette Thacker. All rights reserved
+ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+BEFORE MUDDLEING THROUGH THIS ENTIRE FILE (WHICH IS FOR THOSE 
+WHO LIKE TO  MUDDLE) -- THOSE WHO DON'T LIKE TO MUDDLE, READ THIS:
+Create a separate directory for this game. 
+Unzip the Zip file in that directory.
+
+To install -- 
+     USE THE INSTALL.BAT
+For sample .bat file -- 
+     SEE sample.bat
+
+This is the sample.bat:
+@echo off
+cd\pb\games\wake
+wake C:\bbs\node1\DORINFO1.DEF 1 SSS.cfg
+cd\pb\node1
+
+DO NOT USE THE SSS.CFG FILE UNLESS YOU HAVE SPECIAL CONSIDERATIONS!
+Read below for more details about the SSS.CFG only if NEEDED!
+
+To run the Sysop Mode for entering registration key or
+for deleting/editing players, type:
+wake sysop
+
+MAINTENANCE:
+To automatically reset the game weekly put this in your nightly
+maintenance .bat file, will reset on Sunday of each week:
+wake maint W
+To automatically reset the game monthly put this in your nightly
+maintenance .bat file, will reset first of the month:
+wake maint M
+To run maintenance without resetting game automatically, put this
+in your maintenance .bat file:
+wake maint
+(Game can be manually reset via sysop mode: wake sysop)
+
+That is short & sweet and should do it. If it doesn't, then start muddleing.
+
+Benefits of registering
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1. All future updates FREE when freqed from BBS's carrying the files.
+   2. Author support.
+   3. Support the author so she can create MORE games for your enjoyment!
+
+Running from Type 7 Shell to DOS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+SSS games can be run from your bbs with a type 7 shell to dos. An example
+command line within your BBS system config would be:
+
+Quickbbs:
+command.com /c sample.bat or
+command.com *C sample.bat
+
+Proboard:
+*Z sample.bat
+
+SSS Doors run on many different BBS systems, the above are just examples.
+
+Sample Door Batch File
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+SSS Doors use many different drop files, dorinfo*.def is just an example.
+
+@echo off
+cd\pb\games\wake
+wake c:\pb\node1\dorinfo1.def 1 sss.cfg
+cd\pb\node1
+
+or
+
+@echo off
+cd\pb\games\wake
+wake c:\pb\node%1\dorinfo%1.def %1 sss.cfg
+cd\pb\node%1
+
+CALL YOUR SSS GAME MULTI-NODE THE SAME AS SINGLE NODE:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+wake c:\bbs\node1\dorinfo1.def 1 SSS.cfg
+wake c:\bbs\node2\dorinfo2.def 2 SSS.cfg
+wake c:\bbs\node3\dorinfo3.def 3 SSS.cfg
+			       ^
+			       ^
+			       node #
+
+Please pass the drop file and path, the node number, and optionally the
+name of the configuration file (SSS.cfg or if multi-node and you want
+different configurations, SSS.cf1, SSS.cf2, etc. If using same
+configuration, they can all use the same config file).
+
+Local Mode
+ÄÄÄÄÄÄÄÄÄÄ
+The door can be tested in Local Mode before setting up your .bat file(s):  
+wake local "Your Name"
+If you just type:
+wake local
+The system will default to "Sysop" as your name. Within the game you will
+be asked to give an alias for play.
+
+If your entire family is playing locally, each one can pass their real
+name on the command line for identification and then if they play via
+the BBS as well, it will use the same record for play.
+
+RESETTING THE GAME
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Go to Sysop Mode and use the "Reset Game" option.
+Run sysop mode from dos by typing at the dos prompt:
+wake sysop
+
+MULTI-NODE SUPPORT
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+SSS Games are true Multi-Node Door Games. They support multiple players. 
+We have tested them on six nodes successfully, and I'm sure they will 
+support even more.
+
+The installation .bat file automatically takes care of setting the *.exe
+*.ans, *.txt files to READ ONLY. This is necessary for multi-user play since
+users will get a sharing violation if they try to access those files at
+the same time from within the game. This is a "feature" of using Turbo C/C++
+as a compiler (hak kaff).
+
+SSS games will use the record locking options built into SHARE from MS DOS
+3.30 or later. Or you may use your Network's Sharing capabilities.
+
+SYSOP MODE & MENU FUNCTIONS:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Sysop mode can be accessed by DOS:
+wake sysop
+
+Enter Registration Key
+Scores by Player Name -- YOU MAY NEED TO RESELECT PLAYER WHEN DONE
+Scores & Last Date On by Real Name -- MAY NEED TO RESELECT PLAYER
+Select Player to Edit by Alias
+Delete Player
+Reset Game (will delete all players)
+Quit Editor
+Current Player Alias: MoonDust     Name: Nannette Thacker
+
+ENTER REGISTRATION KEY
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+After we have received your registration form in REGISTER.DOC, we 
+will send you a registration key. You will use this menu item to 
+enter the key. Master Card, Visa and On-Line check registrations 
+are available on the author's BBS.
+
+SCORES
+ÄÄÄÄÄÄ
+You can choose to view the scores by the Alias Name or the Player Name.
+This will help you to identify what the real name of a player is.
+When done viewing the player list, it will set you to the end of the
+database and you may need to reselect the player, if you had a player
+selected before looking at the list.
+
+SELECT PLAYER TO EDIT BY ALIAS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Once you have viewed the player list, you can select the player you wish
+to work with by their alias name. Then you can DELETE them if necessary.
+
+DELETE A PLAYER
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+This will permanently remove a player from the game. S/he can still
+come back as a new player and start over. This allows you to
+delete players who may have entered an "obscene" alias. 
+
+QUIT SYSOP MODE
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+This exits the Sysop Mode and takes you back to the BBS.
+
+CURRENT PLAYER ALIAS:  NAME:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Current Player Alias: MoonDust     Name: Nannette Thacker
+This gives the name of the player and his/her alias in case you
+are trying to track down a certain player for disciplinary or other
+reasons.
+
+RESET THE GAME
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+(Start over):  This will delete all players in the player database
+and allow you to reset the game. 
+
+BACKUPS
+ÄÄÄÄÄÄÄ
+If you are limited on backup space, but would like to backup the
+crucial SSS files, the ones to back up are:
+MAINT.DBF
+PLAYERS.*
+
+SHAREWARE
+ÄÄÄÄÄÄÄÄÄ
+When you register, all upgrades are free and your key will be valid for
+all new versions. *We reserve the right to change keys if we find our
+key has been hacked and released to others. In that case we will notify
+you of the new key when the new version comes out.
+
+Everything is fully tested for many weeks before final release.
+
+INSTALLATION PROCEDURE
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+1. Please create a separate directory. 
+  c:\bbs\games\wake\*.*
+
+2. Unzip wake*.zip into your wake directory.
+
+3. Run the INSTALL.BAT file and follow the instructions.
+
+4. Read elsewhere in this file for how to set up a .bat file for this game.
+   See the sample.bat file.
+
+IF ATTRIBUTE COMMANDS FOR DOS DO NOT WORK ON YOUR SYSTEM
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+If you are running a multi-node BBS or plan to play the game locally
+while someone else is playing it on a node, some of the files must be
+set to READ ONLY for multi-use.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+New Sites:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Please run install.bat
+Please continue from install.bat if test fails.
+
+Please set the attributes for all text files to READ ONLY.
+ attrib +R *.txt
+Please set the attributes for all ansi files to READ ONLY.
+ attrib +R *.ans
+Please set the attributes for all executable files to READ ONLY.
+ attrib +R *.exe 
+Please look at sample.bat file for example setup.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Upgrades:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Please set attributes for all *.txt, *.ans and *.exe files in directory to 
+NOT read only so that new files can copy over old ones.
+
+attrib -R *.exe
+attrib -R *.txt
+attrib -R *.ans
+
+Please run install.bat and select upgrade.
+Please continue from install.bat if test fails.
+Please set the attributes for all text files to READ ONLY.
+ attrib +R *.txt
+Please set the attributes for all ansi files to READ ONLY.
+ attrib +R *.ans
+Please set the attributes for all executable files to READ ONLY.
+ attrib +R *.exe
+Please look at sample.bat file for example setup.
+
+
